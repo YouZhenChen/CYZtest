@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+.idx_SHIMember{
+	position: absolute;
+}
+.O_1{
+	width: 22%;
+}
+.J_1{
+	width: 25%;
+	left: 15%;
+	top: 70px;
+	z-index: 2;
+}
+.M_1{
+	width: 23%;
+	left: 35%;
+	top: 40px;
+	z-index: 1;
+}
+.T_1{
+	width: 33%;
+	right: 17%;
+	top: 10px;
+}
+.K_1{
+	right: 0;
+	width: 30%;
+	top: 40px;
+}
+.idx_DiamondBox{
+	width: 100%; 
+	max-width:650px; 
+	position:absolute; 
+	bottom:200px;
+	z-index: 3;
+	right: 0;
+}
+.idx_Diamond{
+	width:100px; 
+	height:100px;  
+	box-shadow:-4px -3px 2px rgba(155,155,155,0.3);
+	transform:rotate(-45deg); 
+	position:absolute;
+	overflow: hidden;
+}
+.BgGreen{background:#62d7cb;}
+.BgWhite{background:#ffffff;}
+.idx_DiamondBox a:hover img ,.idx_DiamondBox a.Website img{	display: inline-block;}
+.idx_DiamondBox a img{ display: none; width: 100%;}
+@keyframes AlbumImg {
+	0% { background-image:url(../img/Album/Album_001.png);}
+	15% { background-image:url(../img/Album/Album_002.png);}
+	30% { background-image:url(../img/Album/Album_003.png);}
+	45% { background-image:url(../img/Album/Album_004.png);}
+	60% { background-image:url(../img/Album/Album_005.png);}
+	75% { background-image:url(../img/Album/Album_006.png);}
+	100% { background-image:url(../img/Album/Album_001.png);}
+}
+@keyframes IntrduceImg {
+	0% { background-image:url(../img/Intrduce/Intrduce_001.png);}
+	15% { background-image:url(../img/Intrduce/Intrduce_002.png);}
+	30% { background-image:url(../img/Intrduce/Intrduce_003.png);}
+	45% { background-image:url(../img/Intrduce/Intrduce_004.png);}
+	60% { background-image:url(../img/Intrduce/Intrduce_005.png);}
+	75% { background-image:url(../img/Intrduce/Intrduce_006.png);}
+	100% { background-image:url(../img/Intrduce/Intrduce_001.png);}
+}
+@keyframes PhotosImg {
+	0% { background-image:url(../img/Photos/Photo_001.png);}
+	15% { background-image:url(../img/Photos/Photo_002.png);}
+	30% { background-image:url(../img/Photos/Photo_003.png);}
+	45% { background-image:url(../img/Photos/Photo_004.png);}
+	60% { background-image:url(../img/Photos/Photo_005.png);}
+	75% { background-image:url(../img/Photos/Photo_006.png);}
+	100% { background-image:url(../img/Photos/Photo_001.png);}
+}
+@keyframes WonderfulDayImg {
+	0% { background-image:url(../img/WonderfulDay/WonderfulDay_001.png);}
+	15% { background-image:url(../img/WonderfulDay/WonderfulDay_002.png);}
+	30% { background-image:url(../img/WonderfulDay/WonderfulDay_003.png);}
+	45% { background-image:url(../img/WonderfulDay/WonderfulDay_004.png);}
+	60% { background-image:url(../img/WonderfulDay/WonderfulDay_005.png);}
+	75% { background-image:url(../img/WonderfulDay/WonderfulDay_006.png);}
+	100% { background-image:url(../img/WonderfulDay/WonderfulDay_001.png);}
+}
+.idx_DiamondBox a.Album div{	animation-name: AlbumImg; }
+.idx_DiamondBox a.Intrduce div{	animation-name: IntrduceImg; }
+.idx_DiamondBox a.Photos div{	animation-name: PhotosImg; }
+.idx_DiamondBox a.WonderfulDay div{	animation-name: WonderfulDayImg; }
+.idx_DiamondBox a div{
+	display: inline-block; 
+	animation-duration: 13s; 
+	animation-timing-function: linear; 
+	animation-iteration-count: infinite; 
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+footer{
+ position:fixed;
+ bottom: 0;
+ height:240px; 
+ width:100%; 
+ background-color:#66CCCC;
+ z-index: 2;
+ background-image:url(../img/Shinee_logo.png);
+ background-size: auto 100%;
+ background-repeat: no-repeat;
+ background-position-x: 20%;
+}

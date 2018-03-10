@@ -1,0 +1,15 @@
+.Intrduce_M a{
+ display: inline-block; 
+ width: 20%; 
+ height: 100vh; 
+ position: relative; 
+ margin: 0 -2px;
+}
+.Intrduce_M a:hover{transform:scaleX(-1);}
+.Intrduce_M a img{
+ width: 100%;
+ position: absolute; 
+ display: inline-block;
+}
+.Intrduce_M a img:last-child{bottom: 0;}
+.Intrduce_M a img:nth-child(1){top: 0;}
